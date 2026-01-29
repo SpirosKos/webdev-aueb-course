@@ -1,0 +1,19 @@
+/* # is for id */
+#cf-text {
+    color: green;
+}
+
+.cf-text {
+    color: brown!important;
+}
+
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+/* Inline   ID  Class   Type
+    0       0   0       0 */

@@ -1,0 +1,75 @@
+body {
+    background-color: lightgrey;
+}
+
+p, li {
+    color: red;
+}
+
+/*  */
+
+.aueb-logo {
+    border: 3px solid black;
+    width: 400px;  
+}
+
+img.aueb-logo {
+    height: auto;
+}
+
+p.aueb-logo {
+    color: blue;
+}
+
+p {
+    color: yellow;
+}
+
+ul > li {
+    color: blue;
+}
+
+h1 + p {
+    color: orange;
+}
+
+/* usually link,visited,hover,   needs to be in correct line 1 > 5 */
+
+.link-cf:link{
+    text-decoration: none;
+    color: black;
+}
+
+.link-cf:visited{
+    color: blue;
+}
+
+.link-cf:hover {
+    background-color: green;
+}
+
+.link-cf:focus {
+    outline: none;
+    background-color: yellow;
+}
+
+.link-cf:active {
+    background-color: chocolate;
+}
+
+#auebLogo {
+    color: lightblue;
+}
+
+.border-green-1 {
+    border: 1px solid green;
+}
+
+.border-green-2 {
+    border: 2px solid green;
+}
+
+.text-red {
+    color: red;
+}
+/* height auto για να μην παραμορφωθει η εικονα */
