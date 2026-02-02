@@ -37,6 +37,15 @@ nav {
     width: 80%;
 }
 
+/* Footer Styling */
+footer {
+    border-top: 10px solid var(--blue);
+}
+
+.img-footer {
+    height: 75px;
+    width: auto;
+}
 
 /* Displays */
 .d-flex {
@@ -62,6 +71,18 @@ nav {
     padding: 1rem;
 }
 
+.p-2 {
+    padding: 2rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
 .mt-2{
     margin-top: 2rem;
 }
@@ -71,13 +92,25 @@ nav {
 }
 
 
-.mb-2 {
+.mb-1 {
     margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
 }
 
 /* Backgrounds */
 .bg-gov-blue {
     background-color: var(--gov-blue);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-lightgrey-300{
+    background-color: var(--lightgrey300);
 }
 
 /* Text Styling */
@@ -91,6 +124,19 @@ nav {
 
 .text-center {
     text-align: center;
+}
+
+
+.text-white {
+    color: var(--white);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-decoration-none {
+    text-decoration: none;
 }
 /* List - Links */
 .list-style-none {
