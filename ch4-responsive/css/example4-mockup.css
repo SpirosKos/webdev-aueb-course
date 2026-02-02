@@ -113,3 +113,30 @@ footer {
     color: white;
     padding: 0 10px;
 }
+
+.navbar-toggler {
+    display: none;
+    margin-right: 40px;
+}
+
+.menu-toggler {
+    display: none;
+    margin-right: 40px;
+}
+
+@media (max-width:992px) {
+    nav {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

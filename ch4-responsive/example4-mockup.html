@@ -30,7 +30,20 @@
                     <li><a href="#">We Are</a></li>
                 </ul>
             </nav>
+
+            <div class="navbar-toggler">
+                <button type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </header>
+
+        <div class="menu-toggler">
+            <ul>
+                <li><a href="#">menu 1</a></li>
+                <li><a href="#">menu 2</a></li>
+            </ul>
+        </div>
 
         <!-- Image Slider -->
          <div class="home-img">
@@ -41,7 +54,7 @@
     </div>
     
     <!-- Main -->
-     <main class="mt-2 mb-2">
+     <main class="mt-2 mb-2" id="main">
         <h2 class="mb-2">Coding Factory</h2>
         <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima porro minus, fugit corrupti fuga ab! Mollitia illum, veritatis blanditiis architecto aperiam sequi qui rerum, recusandae dolores, harum vitae voluptatum?</section>
         <section>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, rerum natus id neque vitae cupiditate quo velit voluptatibus, architecto et fugit quos? Obcaecati necessitatibus ab explicabo et nihil eum ipsa.</section>
@@ -49,7 +62,7 @@
      </main>
 
      <!-- Footer -->
-     <footer>
+     <footer id="footer">
         <div>&copy Coding Factory 2026 - Athens University of .....</div>
         <div>
             <span>Follow Us</span>
@@ -57,5 +70,21 @@
             <i class="fa-brands fa-linkedin-in"></i>
         </div>
      </footer>
+
+     <script>
+        const img = document.querySelector('.home-img');
+        const toggleBtn = document.querySelector('.navbar-toggler');
+        const navbarToggle = document.querySelector('.menu-toggler');
+        const main = document.getElementById('main');
+        const footer = document.getElementById('footer');
+
+        toggleBtn.addEventListener('click', function() {
+            img.classList.toggle('hidden');
+            navbarToggle.classList.toggle('show');
+            main.classList.toggle('hidden');
+            footer.classList.toggle('hidden');
+        })
+     </script>
+
 </body>
 </html>
